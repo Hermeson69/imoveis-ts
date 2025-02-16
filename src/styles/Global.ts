@@ -24,5 +24,11 @@ export default createGlobalStyle`
     }
         ul { list-style: none; }
         a { text-decoration: none; }
+        a{color: black}
+    
+    h2{
+        margin: 40px;
+        margin-left: 4%;
+    }
         
 `
