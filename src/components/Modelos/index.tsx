@@ -1,9 +1,11 @@
-import { Modelos_Card, Modelos_Div } from "./style"
+import { Modelos_Card, Modelos_Div, Title } from "./style"
 
 const Modelos = () =>{
     return (
         <>
-        <h2>Espaços grandes ou pequenos — temos todas as opções</h2>
+        <Title>
+          <h2>Espaços grandes ou pequenos — temos todas as opções</h2>
+        </Title>
         <Modelos_Div>
           <a href="">
               <Modelos_Card>

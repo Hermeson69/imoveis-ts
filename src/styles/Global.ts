@@ -27,9 +27,5 @@ export default createGlobalStyle`
         a { text-decoration: none; }
         a{color: black}
     
-    h2{
-        margin: 40px;
-        margin-left: 4%;
-    }
         
 `

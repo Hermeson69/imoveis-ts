@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Title = styled.div`
+    margin: 40px;
+    margin-left: 4%;
+` 
+
 export const Modelos_Div = styled.div`
 display: flex;
 justify-content: space-around;
