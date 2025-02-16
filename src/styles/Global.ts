@@ -16,6 +16,7 @@ export default createGlobalStyle`
         --blue_violet : #8a2be2;
     }
     body {
+        display: block;
         background-color: var(--primary);
         font-family:"Poppins", sans-serif;
         color: var(--secundary);
