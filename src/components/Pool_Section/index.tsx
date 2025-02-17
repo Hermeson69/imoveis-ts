@@ -1,20 +1,19 @@
 import { FaStar } from "react-icons/fa"
-import { Button_Busc, Kitcheng_Card, Kitcheng_Div, Title } from "./style"
+import { Button_Busc, Pool_Card, Pool_Div, Title } from "./style"
 
-const SecKitchen = () => {
+const SecPool = () => {
     return (
         <>
             <Title>
-                <h2>Acomodações para famílias com cozinha completa</h2>
-                <span>Prepare um banquete para os entes queridos nestas acomodações com cozinhas e churrasqueiras.</span>
+                <h2>Acomodações para se refrescar na piscina</h2>
+                <span>Relaxe à beira da piscina com as pessoas que você mais gosta em acomodações com mais de dois quartos.</span>
             </Title>
-            <Kitcheng_Div>
-
+            <Pool_Div>
                 <a href="">
 
-                    <Kitcheng_Card>
-                        <img src="/Kitcheng_Img/1.jpg" alt="" />
-                        <h5>Casa em Campos do Jordão  <FaStar
+                    <Pool_Card>
+                        <img src="/Pool_Img/1.jpg" alt="" />
+                        <h5>Casa em Frotaleza  <FaStar
                             size={15}
                             style={{ marginLeft: '30px' }}
                         >
@@ -28,15 +27,15 @@ const SecKitchen = () => {
                             9 quartos
                         </span>
                         <h5>R$ 520/noite</h5>
-                    </Kitcheng_Card>
+                    </Pool_Card>
                 </a>
 
                 <a href="">
 
 
-                    <Kitcheng_Card>
-                        <img src="/Kitcheng_Img/2.jpeg" alt="" />
-                        <h5>Casa em Campos do Jordão  <FaStar
+                    <Pool_Card>
+                        <img src="/Pool_Img/2.jpeg" alt="" />
+                        <h5>Casa em Balneário Camboriú  <FaStar
                             size={15}
                             style={{ marginLeft: '30px' }}
                         >
@@ -50,14 +49,13 @@ const SecKitchen = () => {
                             3 quartos
                         </span>
                         <h5>R$ 769/noite</h5>
-                    </Kitcheng_Card>
-
+                    </Pool_Card>
                 </a>
 
-
                 <a href="">
-                    <Kitcheng_Card>
-                        <img src="/Kitcheng_Img/3.jpg" alt="" />
+
+                    <Pool_Card>
+                        <img src="/Pool_Img/3.jpg" alt="" />
                         <h5>Casa em Campos do Jordão  <FaStar
                             size={15}
                             style={{ marginLeft: '30px' }}
@@ -72,15 +70,14 @@ const SecKitchen = () => {
                             5 quartos
                         </span>
                         <h5>R$ 599/noite</h5>
-                    </Kitcheng_Card>
-
+                    </Pool_Card>
                 </a>
 
                 <a href="">
 
-                    <Kitcheng_Card>
-                        <img src="/Kitcheng_Img/4.jpeg" alt="" />
-                        <h5>Casa em Campos do Jordão  <FaStar
+                    <Pool_Card>
+                        <img src="/Pool_Img/4.jpg" alt="" />
+                        <h5>Casa em Tauá  <FaStar
                             size={15}
                             style={{ marginLeft: '30px' }}
                         >
@@ -94,17 +91,17 @@ const SecKitchen = () => {
                             4 quartos
                         </span>
                         <h5>R$ 570/noite</h5>
-                    </Kitcheng_Card>
-
+                    </Pool_Card>
                 </a>
-            </Kitcheng_Div>
+
+            </Pool_Div>
             <a href="#">
                 <Button_Busc>
-                    Vire seu Chef
+                    Refresque-se
                 </Button_Busc>
             </a>
         </>
     )
 }
 
-export default SecKitchen
+export default SecPool
